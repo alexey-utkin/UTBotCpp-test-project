@@ -1,17 +1,17 @@
-name: Run UTBotCpp-action
+name: "Run UTBotCpp-action"
 
 on:
   workflow_dispatch:
-
+    
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions: write-all
     steps:
-      - name: UTBot code analysis
-        uses: slawa4s/Utbot-Action@test-1.0.23
-        with:
-          test_push_info: 'true'
-          test_delete_info: 'false'
-          utbot_version: '2022.06.13'
-          launch_param: 'project'
+    - name: UTBot code analysis
+      uses: slawa4s/Utbot-Action@test-1.0.23
+      with:
+        test_push_info: 'true'
+        test_delete_info: 'false'
+        utbot_version: '2022.06.13'
+        launch_param: 'project'
