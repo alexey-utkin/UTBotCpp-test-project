@@ -1,5 +1,5 @@
 #include "libfunc.h"
 
 int libfunc(int a) {
-    return 10;
+    return 1/a;
 }
