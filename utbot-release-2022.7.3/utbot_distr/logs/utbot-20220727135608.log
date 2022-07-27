@@ -1,0 +1,14 @@
+
+
+
+
+
+File verbosity level: 9
+date       time         [ thread name/id ]                   file:line     v| 
+2022-07-27 13:56:08.981 [UnitTestBot     ]             loguru.cpp:770   INFO| Logging to '/home/runner/work/UTBotCpp-test-project/UTBotCpp-test-project/utbot-release-2022.7.3/utbot_distr/logs/utbot-20220727135608.log', mode: 'a', verbosity: 9
+2022-07-27 13:56:08.981 [UnitTestBot     ]             Server.cpp:43    INFO| UnitTestBot Server, build 2022.7.0
+2022-07-27 13:56:08.981 [UnitTestBot     ]             Server.cpp:44    INFO| Logs directory: "/home/runner/work/UTBotCpp-test-project/UTBotCpp-test-project/utbot-release-2022.7.3/utbot_distr"
+2022-07-27 13:56:08.981 [UnitTestBot     ]             Server.cpp:45    INFO| Latest log path: "/home/runner/work/UTBotCpp-test-project/UTBotCpp-test-project/utbot-release-2022.7.3/utbot_distr/logs/utbot-20220727135608.log"
+2022-07-27 13:56:08.981 [UnitTestBot     ]             Server.cpp:46    INFO| Executable path: "/home/runner/work/UTBotCpp-test-project/UTBotCpp-test-project/utbot-release-2022.7.3/utbot_distr"
+2022-07-27 13:56:08.981 [UnitTestBot     ]             Server.cpp:61    INFO| Address: 0.0.0.0:2121
+
