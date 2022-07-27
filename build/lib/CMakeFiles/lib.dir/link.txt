@@ -1,0 +1,2 @@
+/home/runner/work/UTBotCpp-test-project/UTBotCpp-test-project/utbot-release-2022.7.3/utbot_distr/debs-install/usr/bin/ar qc liblib.a CMakeFiles/lib.dir/libfunc.c.o
+/home/runner/work/UTBotCpp-test-project/UTBotCpp-test-project/utbot-release-2022.7.3/utbot_distr/debs-install/usr/bin/ranlib liblib.a

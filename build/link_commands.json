@@ -1,0 +1,30 @@
+[
+    {
+        "arguments": [
+            "/home/runner/work/UTBotCpp-test-project/UTBotCpp-test-project/utbot-release-2022.7.3/utbot_distr/install/bin/clang",
+            "-fuse-ld=gold",
+            "-o",
+            "c-example-mini",
+            "CMakeFiles/c-example-mini.dir/src/main.c.o",
+            "lib/liblib.a"
+        ],
+        "directory": "/home/runner/work/UTBotCpp-test-project/UTBotCpp-test-project/build",
+        "files": [
+            "CMakeFiles/c-example-mini.dir/src/main.c.o",
+            "lib/liblib.a"
+        ]
+    },
+    {
+        "arguments": [
+            "/home/runner/work/UTBotCpp-test-project/UTBotCpp-test-project/utbot-release-2022.7.3/utbot_distr/debs-install/usr/bin/ar",
+            "qc",
+            "-o",
+            "liblib.a",
+            "CMakeFiles/lib.dir/libfunc.c.o"
+        ],
+        "directory": "/home/runner/work/UTBotCpp-test-project/UTBotCpp-test-project/build/lib",
+        "files": [
+            "CMakeFiles/lib.dir/libfunc.c.o"
+        ]
+    }
+]

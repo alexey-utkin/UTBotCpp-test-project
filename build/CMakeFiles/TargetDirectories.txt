@@ -1,0 +1,6 @@
+/home/runner/work/UTBotCpp-test-project/UTBotCpp-test-project/build/CMakeFiles/rebuild_cache.dir
+/home/runner/work/UTBotCpp-test-project/UTBotCpp-test-project/build/CMakeFiles/edit_cache.dir
+/home/runner/work/UTBotCpp-test-project/UTBotCpp-test-project/build/CMakeFiles/c-example-mini.dir
+/home/runner/work/UTBotCpp-test-project/UTBotCpp-test-project/build/lib/CMakeFiles/rebuild_cache.dir
+/home/runner/work/UTBotCpp-test-project/UTBotCpp-test-project/build/lib/CMakeFiles/edit_cache.dir
+/home/runner/work/UTBotCpp-test-project/UTBotCpp-test-project/build/lib/CMakeFiles/lib.dir

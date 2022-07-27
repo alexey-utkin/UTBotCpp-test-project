@@ -1,0 +1,26 @@
+[
+    {
+        "arguments": [
+            "/home/runner/work/UTBotCpp-test-project/UTBotCpp-test-project/utbot-release-2022.7.3/utbot_distr/install/bin/clang",
+            "-c",
+            "-std=gnu11",
+            "-o",
+            "CMakeFiles/c-example-mini.dir/src/main.c.o",
+            "../src/main.c"
+        ],
+        "directory": "/home/runner/work/UTBotCpp-test-project/UTBotCpp-test-project/build",
+        "file": "../src/main.c"
+    },
+    {
+        "arguments": [
+            "/home/runner/work/UTBotCpp-test-project/UTBotCpp-test-project/utbot-release-2022.7.3/utbot_distr/install/bin/clang",
+            "-c",
+            "-std=gnu11",
+            "-o",
+            "CMakeFiles/lib.dir/libfunc.c.o",
+            "../../lib/libfunc.c"
+        ],
+        "directory": "/home/runner/work/UTBotCpp-test-project/UTBotCpp-test-project/build/lib",
+        "file": "../../lib/libfunc.c"
+    }
+]

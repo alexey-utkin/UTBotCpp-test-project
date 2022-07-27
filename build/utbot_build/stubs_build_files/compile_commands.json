@@ -1,0 +1,30 @@
+[
+    {
+        "arguments": [
+            "/home/runner/work/UTBotCpp-test-project/UTBotCpp-test-project/utbot-release-2022.7.3/utbot_distr/install/bin/clang",
+            "",
+            "-c",
+            "-g",
+            "-O0",
+            "-o",
+            "/home/runner/work/UTBotCpp-test-project/UTBotCpp-test-project/src/main.o",
+            "/home/runner/work/UTBotCpp-test-project/UTBotCpp-test-project/src/main.c"
+        ],
+        "directory": "/home/runner/work/UTBotCpp-test-project/UTBotCpp-test-project/build/utbot_build/stubs_build_files",
+        "file": "/home/runner/work/UTBotCpp-test-project/UTBotCpp-test-project/src/main.c"
+    },
+    {
+        "arguments": [
+            "/home/runner/work/UTBotCpp-test-project/UTBotCpp-test-project/utbot-release-2022.7.3/utbot_distr/install/bin/clang",
+            "",
+            "-c",
+            "-g",
+            "-O0",
+            "-o",
+            "/home/runner/work/UTBotCpp-test-project/UTBotCpp-test-project/lib/libfunc.o",
+            "/home/runner/work/UTBotCpp-test-project/UTBotCpp-test-project/lib/libfunc.c"
+        ],
+        "directory": "/home/runner/work/UTBotCpp-test-project/UTBotCpp-test-project/build/utbot_build/stubs_build_files",
+        "file": "/home/runner/work/UTBotCpp-test-project/UTBotCpp-test-project/lib/libfunc.c"
+    }
+]

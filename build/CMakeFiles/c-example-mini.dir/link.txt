@@ -1,0 +1,1 @@
+/home/runner/work/UTBotCpp-test-project/UTBotCpp-test-project/utbot-release-2022.7.3/utbot_distr/install/bin/clang -fuse-ld=gold CMakeFiles/c-example-mini.dir/src/main.c.o -o c-example-mini  lib/liblib.a 
