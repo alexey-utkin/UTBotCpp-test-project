@@ -9,7 +9,7 @@ jobs:
     permissions: write-all
     steps:
     - name: UTBot code analysis
-      uses: alexey-utkin/UTBotCpp-action@1.0.28
+      uses: alexey-utkin/UTBotCpp-action@1.0.29
       with:
         add_tests: 'true'
         refresh_tests: 'true'
