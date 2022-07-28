@@ -20,7 +20,7 @@
                             "uriBaseId": "%PATH%"
                           },
                           "region": {
-                            "startLine": 62
+                            "startLine": 66
                           }
                         }
                       },
@@ -121,7 +121,7 @@
                         "uriBaseId": "%PATH%"
                       },
                       "region": {
-                        "startLine": 62
+                        "startLine": 66
                       }
                     }
                   },
@@ -202,7 +202,7 @@
                             "uriBaseId": "%PATH%"
                           },
                           "region": {
-                            "startLine": 70
+                            "startLine": 105
                           }
                         }
                       },
@@ -303,7 +303,7 @@
                         "uriBaseId": "%PATH%"
                       },
                       "region": {
-                        "startLine": 70
+                        "startLine": 105
                       }
                     }
                   },
@@ -384,7 +384,7 @@
                             "uriBaseId": "%PATH%"
                           },
                           "region": {
-                            "startLine": 105
+                            "startLine": 62
                           }
                         }
                       },
@@ -485,7 +485,7 @@
                         "uriBaseId": "%PATH%"
                       },
                       "region": {
-                        "startLine": 105
+                        "startLine": 62
                       }
                     }
                   },
@@ -566,7 +566,7 @@
                             "uriBaseId": "%PATH%"
                           },
                           "region": {
-                            "startLine": 66
+                            "startLine": 70
                           }
                         }
                       },
@@ -667,7 +667,7 @@
                         "uriBaseId": "%PATH%"
                       },
                       "region": {
-                        "startLine": 66
+                        "startLine": 70
                       }
                     }
                   },
@@ -719,6 +719,120 @@
                       },
                       "region": {
                         "startLine": 236
+                      }
+                    }
+                  },
+                  "module": "test"
+                }
+              ],
+              "message": {
+                "text": "UTBot generated"
+              }
+            }
+          ]
+        },
+        {
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "message": {
+                          "text": "libfunc (source)"
+                        },
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "lib/libfunc.c",
+                            "uriBaseId": "%SRCROOT%"
+                          },
+                          "region": {
+                            "startLine": 4
+                          }
+                        }
+                      },
+                      "module": "project"
+                    },
+                    {
+                      "location": {
+                        "message": {
+                          "text": "error.libfunc_test_2 (test)"
+                        },
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "tests/lib/libfunc_dot_c_test.cpp",
+                            "uriBaseId": "%SRCROOT%"
+                          },
+                          "region": {
+                            "startLine": 23
+                          }
+                        }
+                      },
+                      "module": "test"
+                    }
+                  ],
+                  "message": {
+                    "text": "UTBot generated"
+                  }
+                }
+              ]
+            }
+          ],
+          "kind": "fail",
+          "level": "error",
+          "locations": [
+            {
+              "message": {
+                "text": "libfunc (source)"
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "lib/libfunc.c",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 4
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": " overflow on division or remainder"
+          },
+          "ruleId": "overflow",
+          "stacks": [
+            {
+              "frames": [
+                {
+                  "location": {
+                    "message": {
+                      "text": "libfunc (source)"
+                    },
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "lib/libfunc.c",
+                        "uriBaseId": "%SRCROOT%"
+                      },
+                      "region": {
+                        "startLine": 4
+                      }
+                    }
+                  },
+                  "module": "project"
+                },
+                {
+                  "location": {
+                    "message": {
+                      "text": "error.libfunc_test_2 (test)"
+                    },
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "tests/lib/libfunc_dot_c_test.cpp",
+                        "uriBaseId": "%SRCROOT%"
+                      },
+                      "region": {
+                        "startLine": 23
                       }
                     }
                   },
