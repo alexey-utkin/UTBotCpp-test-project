@@ -12,735 +12,7 @@
                     {
                       "location": {
                         "message": {
-                          "text": "strtol (external)"
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "strtol.c",
-                            "uriBaseId": "%PATH%"
-                          },
-                          "region": {
-                            "startLine": 66
-                          }
-                        }
-                      },
-                      "module": "external"
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": "atoi (external)"
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "atoi.c",
-                            "uriBaseId": "%PATH%"
-                          },
-                          "region": {
-                            "startLine": 36
-                          }
-                        }
-                      },
-                      "module": "external"
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": "main (source)"
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "src/main.c",
-                            "uriBaseId": "%SRCROOT%"
-                          },
-                          "region": {
-                            "startLine": 6
-                          }
-                        }
-                      },
-                      "module": "project"
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": "error.main_test_11 (test)"
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "tests/src/main_dot_c_test.cpp",
-                            "uriBaseId": "%SRCROOT%"
-                          },
-                          "region": {
-                            "startLine": 203
-                          }
-                        }
-                      },
-                      "module": "test"
-                    }
-                  ],
-                  "message": {
-                    "text": "UTBot generated"
-                  }
-                }
-              ]
-            }
-          ],
-          "kind": "fail",
-          "level": "error",
-          "locations": [
-            {
-              "message": {
-                "text": "main (source)"
-              },
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "src/main.c",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 6
-                }
-              }
-            }
-          ],
-          "message": {
-            "text": " memory error: out of bound pointer"
-          },
-          "ruleId": "ptr",
-          "stacks": [
-            {
-              "frames": [
-                {
-                  "location": {
-                    "message": {
-                      "text": "strtol (external)"
-                    },
-                    "physicalLocation": {
-                      "artifactLocation": {
-                        "uri": "strtol.c",
-                        "uriBaseId": "%PATH%"
-                      },
-                      "region": {
-                        "startLine": 66
-                      }
-                    }
-                  },
-                  "module": "external"
-                },
-                {
-                  "location": {
-                    "message": {
-                      "text": "atoi (external)"
-                    },
-                    "physicalLocation": {
-                      "artifactLocation": {
-                        "uri": "atoi.c",
-                        "uriBaseId": "%PATH%"
-                      },
-                      "region": {
-                        "startLine": 36
-                      }
-                    }
-                  },
-                  "module": "external"
-                },
-                {
-                  "location": {
-                    "message": {
-                      "text": "main (source)"
-                    },
-                    "physicalLocation": {
-                      "artifactLocation": {
-                        "uri": "src/main.c",
-                        "uriBaseId": "%SRCROOT%"
-                      },
-                      "region": {
-                        "startLine": 6
-                      }
-                    }
-                  },
-                  "module": "project"
-                },
-                {
-                  "location": {
-                    "message": {
-                      "text": "error.main_test_11 (test)"
-                    },
-                    "physicalLocation": {
-                      "artifactLocation": {
-                        "uri": "tests/src/main_dot_c_test.cpp",
-                        "uriBaseId": "%SRCROOT%"
-                      },
-                      "region": {
-                        "startLine": 203
-                      }
-                    }
-                  },
-                  "module": "test"
-                }
-              ],
-              "message": {
-                "text": "UTBot generated"
-              }
-            }
-          ]
-        },
-        {
-          "codeFlows": [
-            {
-              "threadFlows": [
-                {
-                  "locations": [
-                    {
-                      "location": {
-                        "message": {
-                          "text": "strtol (external)"
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "strtol.c",
-                            "uriBaseId": "%PATH%"
-                          },
-                          "region": {
-                            "startLine": 105
-                          }
-                        }
-                      },
-                      "module": "external"
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": "atoi (external)"
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "atoi.c",
-                            "uriBaseId": "%PATH%"
-                          },
-                          "region": {
-                            "startLine": 36
-                          }
-                        }
-                      },
-                      "module": "external"
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": "main (source)"
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "src/main.c",
-                            "uriBaseId": "%SRCROOT%"
-                          },
-                          "region": {
-                            "startLine": 6
-                          }
-                        }
-                      },
-                      "module": "project"
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": "error.main_test_12 (test)"
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "tests/src/main_dot_c_test.cpp",
-                            "uriBaseId": "%SRCROOT%"
-                          },
-                          "region": {
-                            "startLine": 214
-                          }
-                        }
-                      },
-                      "module": "test"
-                    }
-                  ],
-                  "message": {
-                    "text": "UTBot generated"
-                  }
-                }
-              ]
-            }
-          ],
-          "kind": "fail",
-          "level": "error",
-          "locations": [
-            {
-              "message": {
-                "text": "main (source)"
-              },
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "src/main.c",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 6
-                }
-              }
-            }
-          ],
-          "message": {
-            "text": " memory error: out of bound pointer"
-          },
-          "ruleId": "ptr",
-          "stacks": [
-            {
-              "frames": [
-                {
-                  "location": {
-                    "message": {
-                      "text": "strtol (external)"
-                    },
-                    "physicalLocation": {
-                      "artifactLocation": {
-                        "uri": "strtol.c",
-                        "uriBaseId": "%PATH%"
-                      },
-                      "region": {
-                        "startLine": 105
-                      }
-                    }
-                  },
-                  "module": "external"
-                },
-                {
-                  "location": {
-                    "message": {
-                      "text": "atoi (external)"
-                    },
-                    "physicalLocation": {
-                      "artifactLocation": {
-                        "uri": "atoi.c",
-                        "uriBaseId": "%PATH%"
-                      },
-                      "region": {
-                        "startLine": 36
-                      }
-                    }
-                  },
-                  "module": "external"
-                },
-                {
-                  "location": {
-                    "message": {
-                      "text": "main (source)"
-                    },
-                    "physicalLocation": {
-                      "artifactLocation": {
-                        "uri": "src/main.c",
-                        "uriBaseId": "%SRCROOT%"
-                      },
-                      "region": {
-                        "startLine": 6
-                      }
-                    }
-                  },
-                  "module": "project"
-                },
-                {
-                  "location": {
-                    "message": {
-                      "text": "error.main_test_12 (test)"
-                    },
-                    "physicalLocation": {
-                      "artifactLocation": {
-                        "uri": "tests/src/main_dot_c_test.cpp",
-                        "uriBaseId": "%SRCROOT%"
-                      },
-                      "region": {
-                        "startLine": 214
-                      }
-                    }
-                  },
-                  "module": "test"
-                }
-              ],
-              "message": {
-                "text": "UTBot generated"
-              }
-            }
-          ]
-        },
-        {
-          "codeFlows": [
-            {
-              "threadFlows": [
-                {
-                  "locations": [
-                    {
-                      "location": {
-                        "message": {
-                          "text": "strtol (external)"
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "strtol.c",
-                            "uriBaseId": "%PATH%"
-                          },
-                          "region": {
-                            "startLine": 62
-                          }
-                        }
-                      },
-                      "module": "external"
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": "atoi (external)"
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "atoi.c",
-                            "uriBaseId": "%PATH%"
-                          },
-                          "region": {
-                            "startLine": 36
-                          }
-                        }
-                      },
-                      "module": "external"
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": "main (source)"
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "src/main.c",
-                            "uriBaseId": "%SRCROOT%"
-                          },
-                          "region": {
-                            "startLine": 6
-                          }
-                        }
-                      },
-                      "module": "project"
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": "error.main_test_13 (test)"
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "tests/src/main_dot_c_test.cpp",
-                            "uriBaseId": "%SRCROOT%"
-                          },
-                          "region": {
-                            "startLine": 225
-                          }
-                        }
-                      },
-                      "module": "test"
-                    }
-                  ],
-                  "message": {
-                    "text": "UTBot generated"
-                  }
-                }
-              ]
-            }
-          ],
-          "kind": "fail",
-          "level": "error",
-          "locations": [
-            {
-              "message": {
-                "text": "main (source)"
-              },
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "src/main.c",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 6
-                }
-              }
-            }
-          ],
-          "message": {
-            "text": " memory error: out of bound pointer"
-          },
-          "ruleId": "ptr",
-          "stacks": [
-            {
-              "frames": [
-                {
-                  "location": {
-                    "message": {
-                      "text": "strtol (external)"
-                    },
-                    "physicalLocation": {
-                      "artifactLocation": {
-                        "uri": "strtol.c",
-                        "uriBaseId": "%PATH%"
-                      },
-                      "region": {
-                        "startLine": 62
-                      }
-                    }
-                  },
-                  "module": "external"
-                },
-                {
-                  "location": {
-                    "message": {
-                      "text": "atoi (external)"
-                    },
-                    "physicalLocation": {
-                      "artifactLocation": {
-                        "uri": "atoi.c",
-                        "uriBaseId": "%PATH%"
-                      },
-                      "region": {
-                        "startLine": 36
-                      }
-                    }
-                  },
-                  "module": "external"
-                },
-                {
-                  "location": {
-                    "message": {
-                      "text": "main (source)"
-                    },
-                    "physicalLocation": {
-                      "artifactLocation": {
-                        "uri": "src/main.c",
-                        "uriBaseId": "%SRCROOT%"
-                      },
-                      "region": {
-                        "startLine": 6
-                      }
-                    }
-                  },
-                  "module": "project"
-                },
-                {
-                  "location": {
-                    "message": {
-                      "text": "error.main_test_13 (test)"
-                    },
-                    "physicalLocation": {
-                      "artifactLocation": {
-                        "uri": "tests/src/main_dot_c_test.cpp",
-                        "uriBaseId": "%SRCROOT%"
-                      },
-                      "region": {
-                        "startLine": 225
-                      }
-                    }
-                  },
-                  "module": "test"
-                }
-              ],
-              "message": {
-                "text": "UTBot generated"
-              }
-            }
-          ]
-        },
-        {
-          "codeFlows": [
-            {
-              "threadFlows": [
-                {
-                  "locations": [
-                    {
-                      "location": {
-                        "message": {
-                          "text": "strtol (external)"
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "strtol.c",
-                            "uriBaseId": "%PATH%"
-                          },
-                          "region": {
-                            "startLine": 70
-                          }
-                        }
-                      },
-                      "module": "external"
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": "atoi (external)"
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "atoi.c",
-                            "uriBaseId": "%PATH%"
-                          },
-                          "region": {
-                            "startLine": 36
-                          }
-                        }
-                      },
-                      "module": "external"
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": "main (source)"
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "src/main.c",
-                            "uriBaseId": "%SRCROOT%"
-                          },
-                          "region": {
-                            "startLine": 6
-                          }
-                        }
-                      },
-                      "module": "project"
-                    },
-                    {
-                      "location": {
-                        "message": {
-                          "text": "error.main_test_14 (test)"
-                        },
-                        "physicalLocation": {
-                          "artifactLocation": {
-                            "uri": "tests/src/main_dot_c_test.cpp",
-                            "uriBaseId": "%SRCROOT%"
-                          },
-                          "region": {
-                            "startLine": 236
-                          }
-                        }
-                      },
-                      "module": "test"
-                    }
-                  ],
-                  "message": {
-                    "text": "UTBot generated"
-                  }
-                }
-              ]
-            }
-          ],
-          "kind": "fail",
-          "level": "error",
-          "locations": [
-            {
-              "message": {
-                "text": "main (source)"
-              },
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "src/main.c",
-                  "uriBaseId": "%SRCROOT%"
-                },
-                "region": {
-                  "startLine": 6
-                }
-              }
-            }
-          ],
-          "message": {
-            "text": " memory error: out of bound pointer"
-          },
-          "ruleId": "ptr",
-          "stacks": [
-            {
-              "frames": [
-                {
-                  "location": {
-                    "message": {
-                      "text": "strtol (external)"
-                    },
-                    "physicalLocation": {
-                      "artifactLocation": {
-                        "uri": "strtol.c",
-                        "uriBaseId": "%PATH%"
-                      },
-                      "region": {
-                        "startLine": 70
-                      }
-                    }
-                  },
-                  "module": "external"
-                },
-                {
-                  "location": {
-                    "message": {
-                      "text": "atoi (external)"
-                    },
-                    "physicalLocation": {
-                      "artifactLocation": {
-                        "uri": "atoi.c",
-                        "uriBaseId": "%PATH%"
-                      },
-                      "region": {
-                        "startLine": 36
-                      }
-                    }
-                  },
-                  "module": "external"
-                },
-                {
-                  "location": {
-                    "message": {
-                      "text": "main (source)"
-                    },
-                    "physicalLocation": {
-                      "artifactLocation": {
-                        "uri": "src/main.c",
-                        "uriBaseId": "%SRCROOT%"
-                      },
-                      "region": {
-                        "startLine": 6
-                      }
-                    }
-                  },
-                  "module": "project"
-                },
-                {
-                  "location": {
-                    "message": {
-                      "text": "error.main_test_14 (test)"
-                    },
-                    "physicalLocation": {
-                      "artifactLocation": {
-                        "uri": "tests/src/main_dot_c_test.cpp",
-                        "uriBaseId": "%SRCROOT%"
-                      },
-                      "region": {
-                        "startLine": 236
-                      }
-                    }
-                  },
-                  "module": "test"
-                }
-              ],
-              "message": {
-                "text": "UTBot generated"
-              }
-            }
-          ]
-        },
-        {
-          "codeFlows": [
-            {
-              "threadFlows": [
-                {
-                  "locations": [
-                    {
-                      "location": {
-                        "message": {
-                          "text": "libfunc (source)"
+                          "text": "libfunc11 (source)"
                         },
                         "physicalLocation": {
                           "artifactLocation": {
@@ -757,7 +29,7 @@
                     {
                       "location": {
                         "message": {
-                          "text": "error.libfunc_test_2 (test)"
+                          "text": "error.libfunc11_test_2 (test)"
                         },
                         "physicalLocation": {
                           "artifactLocation": {
@@ -784,7 +56,7 @@
           "locations": [
             {
               "message": {
-                "text": "libfunc (source)"
+                "text": "libfunc11 (source)"
               },
               "physicalLocation": {
                 "artifactLocation": {
@@ -807,7 +79,7 @@
                 {
                   "location": {
                     "message": {
-                      "text": "libfunc (source)"
+                      "text": "libfunc11 (source)"
                     },
                     "physicalLocation": {
                       "artifactLocation": {
@@ -824,7 +96,7 @@
                 {
                   "location": {
                     "message": {
-                      "text": "error.libfunc_test_2 (test)"
+                      "text": "error.libfunc11_test_2 (test)"
                     },
                     "physicalLocation": {
                       "artifactLocation": {
@@ -833,6 +105,416 @@
                       },
                       "region": {
                         "startLine": 23
+                      }
+                    }
+                  },
+                  "module": "test"
+                }
+              ],
+              "message": {
+                "text": "UTBot generated"
+              }
+            }
+          ]
+        },
+        {
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "message": {
+                          "text": "foo12 (source)"
+                        },
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "src/main.c",
+                            "uriBaseId": "%SRCROOT%"
+                          },
+                          "region": {
+                            "startLine": 7
+                          }
+                        }
+                      },
+                      "module": "project"
+                    },
+                    {
+                      "location": {
+                        "message": {
+                          "text": "error.foo12_test_2 (test)"
+                        },
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "tests/src/main_dot_c_test.cpp",
+                            "uriBaseId": "%SRCROOT%"
+                          },
+                          "region": {
+                            "startLine": 29
+                          }
+                        }
+                      },
+                      "module": "test"
+                    }
+                  ],
+                  "message": {
+                    "text": "UTBot generated"
+                  }
+                }
+              ]
+            }
+          ],
+          "kind": "fail",
+          "level": "error",
+          "locations": [
+            {
+              "message": {
+                "text": "foo12 (source)"
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main.c",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 7
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": " overflow on division or remainder"
+          },
+          "ruleId": "overflow",
+          "stacks": [
+            {
+              "frames": [
+                {
+                  "location": {
+                    "message": {
+                      "text": "foo12 (source)"
+                    },
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "src/main.c",
+                        "uriBaseId": "%SRCROOT%"
+                      },
+                      "region": {
+                        "startLine": 7
+                      }
+                    }
+                  },
+                  "module": "project"
+                },
+                {
+                  "location": {
+                    "message": {
+                      "text": "error.foo12_test_2 (test)"
+                    },
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "tests/src/main_dot_c_test.cpp",
+                        "uriBaseId": "%SRCROOT%"
+                      },
+                      "region": {
+                        "startLine": 29
+                      }
+                    }
+                  },
+                  "module": "test"
+                }
+              ],
+              "message": {
+                "text": "UTBot generated"
+              }
+            }
+          ]
+        },
+        {
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "message": {
+                          "text": "foo12 (source)"
+                        },
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "src/main.c",
+                            "uriBaseId": "%SRCROOT%"
+                          },
+                          "region": {
+                            "startLine": 7
+                          }
+                        }
+                      },
+                      "module": "project"
+                    },
+                    {
+                      "location": {
+                        "message": {
+                          "text": "opp (source)"
+                        },
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "src/main.c",
+                            "uriBaseId": "%SRCROOT%"
+                          },
+                          "region": {
+                            "startLine": 12
+                          }
+                        }
+                      },
+                      "module": "project"
+                    },
+                    {
+                      "location": {
+                        "message": {
+                          "text": "error.opp_test_2 (test)"
+                        },
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "tests/src/main_dot_c_test.cpp",
+                            "uriBaseId": "%SRCROOT%"
+                          },
+                          "region": {
+                            "startLine": 34
+                          }
+                        }
+                      },
+                      "module": "test"
+                    }
+                  ],
+                  "message": {
+                    "text": "UTBot generated"
+                  }
+                }
+              ]
+            }
+          ],
+          "kind": "fail",
+          "level": "error",
+          "locations": [
+            {
+              "message": {
+                "text": "foo12 (source)"
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main.c",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 7
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": " overflow on division or remainder"
+          },
+          "ruleId": "overflow",
+          "stacks": [
+            {
+              "frames": [
+                {
+                  "location": {
+                    "message": {
+                      "text": "foo12 (source)"
+                    },
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "src/main.c",
+                        "uriBaseId": "%SRCROOT%"
+                      },
+                      "region": {
+                        "startLine": 7
+                      }
+                    }
+                  },
+                  "module": "project"
+                },
+                {
+                  "location": {
+                    "message": {
+                      "text": "opp (source)"
+                    },
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "src/main.c",
+                        "uriBaseId": "%SRCROOT%"
+                      },
+                      "region": {
+                        "startLine": 12
+                      }
+                    }
+                  },
+                  "module": "project"
+                },
+                {
+                  "location": {
+                    "message": {
+                      "text": "error.opp_test_2 (test)"
+                    },
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "tests/src/main_dot_c_test.cpp",
+                        "uriBaseId": "%SRCROOT%"
+                      },
+                      "region": {
+                        "startLine": 34
+                      }
+                    }
+                  },
+                  "module": "test"
+                }
+              ],
+              "message": {
+                "text": "UTBot generated"
+              }
+            }
+          ]
+        },
+        {
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "message": {
+                          "text": "foo12 (source)"
+                        },
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "src/main.c",
+                            "uriBaseId": "%SRCROOT%"
+                          },
+                          "region": {
+                            "startLine": 7
+                          }
+                        }
+                      },
+                      "module": "project"
+                    },
+                    {
+                      "location": {
+                        "message": {
+                          "text": "main (source)"
+                        },
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "src/main.c",
+                            "uriBaseId": "%SRCROOT%"
+                          },
+                          "region": {
+                            "startLine": 17
+                          }
+                        }
+                      },
+                      "module": "project"
+                    },
+                    {
+                      "location": {
+                        "message": {
+                          "text": "error.main_test_1 (test)"
+                        },
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "tests/src/main_dot_c_test.cpp",
+                            "uriBaseId": "%SRCROOT%"
+                          },
+                          "region": {
+                            "startLine": 45
+                          }
+                        }
+                      },
+                      "module": "test"
+                    }
+                  ],
+                  "message": {
+                    "text": "UTBot generated"
+                  }
+                }
+              ]
+            }
+          ],
+          "kind": "fail",
+          "level": "error",
+          "locations": [
+            {
+              "message": {
+                "text": "foo12 (source)"
+              },
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "src/main.c",
+                  "uriBaseId": "%SRCROOT%"
+                },
+                "region": {
+                  "startLine": 7
+                }
+              }
+            }
+          ],
+          "message": {
+            "text": " overflow on division or remainder"
+          },
+          "ruleId": "overflow",
+          "stacks": [
+            {
+              "frames": [
+                {
+                  "location": {
+                    "message": {
+                      "text": "foo12 (source)"
+                    },
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "src/main.c",
+                        "uriBaseId": "%SRCROOT%"
+                      },
+                      "region": {
+                        "startLine": 7
+                      }
+                    }
+                  },
+                  "module": "project"
+                },
+                {
+                  "location": {
+                    "message": {
+                      "text": "main (source)"
+                    },
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "src/main.c",
+                        "uriBaseId": "%SRCROOT%"
+                      },
+                      "region": {
+                        "startLine": 17
+                      }
+                    }
+                  },
+                  "module": "project"
+                },
+                {
+                  "location": {
+                    "message": {
+                      "text": "error.main_test_1 (test)"
+                    },
+                    "physicalLocation": {
+                      "artifactLocation": {
+                        "uri": "tests/src/main_dot_c_test.cpp",
+                        "uriBaseId": "%SRCROOT%"
+                      },
+                      "region": {
+                        "startLine": 45
                       }
                     }
                   },
