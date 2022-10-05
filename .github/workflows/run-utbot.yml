@@ -17,4 +17,4 @@ jobs:
         utbot_version: '2022.10.3'
         scope: 'project'        
 #         scope: 'file'
-#         path: 'src/main.c'
+        path: 'src/main.c'
