@@ -10,7 +10,7 @@ jobs:
     steps:
     - name: UTBot code analysis
 #      uses: UnitTestBot/UTBotCpp-action@test-1.0.26
-      uses: alexey-utkin/UTBotCpp-action@1.0.35
+      uses: alexey-utkin/UTBotCpp-action@1.0.36
       with:
         add_tests: 'false'
         refresh_tests: 'false'
