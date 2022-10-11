@@ -1,0 +1,4 @@
+File,Google Test Execution Time (s),Total Tests Number,Passed Tests Number,Failed Tests Number,Death Tests Number,Interrupted Tests Number,Total Lines Number,Covered Lines Number,Line Coverage Ratio (%)
+lib/libfunc.c,0.001,2,1,0,1,0,3,3,100.000000
+src/main.c,0,7,3,0,4,0,21,9,42.857143
+Total:,0.001,9,4,0,5,0,24,12,50.000000
