@@ -10,7 +10,7 @@ jobs:
     steps:
     - name: UTBot code analysis
 #      uses: UnitTestBot/UTBotCpp-action@test-1.0.26
-      uses: alexey-utkin/UTBotCpp-action@1.0.36
+      uses: alexey-utkin/UTBotCpp-action@1.0.37
       with:
         add_tests: 'false'
         refresh_tests: 'false'
@@ -18,4 +18,4 @@ jobs:
         scope: 'project'
 #        scope: 'file'
 #        path: 'src/main.c'
-        runtests: 'false'
+        runtests: 'true'
